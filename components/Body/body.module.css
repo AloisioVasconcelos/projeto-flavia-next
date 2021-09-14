@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Dancing+Script&display=swap');
+
+.allBody {
+  justify-content: center;
+  padding: 0 4.2rem;
+}
+
+.banner {
+  
+  justify-content: center;
+  display: flex;
+  
+}
+
+.bannerPage {
+  
+  width: clamp(320px, 100%, 100%);
+  margin: 2.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.diferencial {
+  background-color: var(--iceWhite);
+  font-family: Dancing Script, cursive;
+  padding: 0.5rem 1rem;
+  /* width: clamp(100%, 100%, 40%); */
+  text-align:justify;
+  font-size: clamp(1rem, 1.6rem, 2.7rem); 
+  color: var(--descritpion);
+  justify-content: center;
+}
+
+
+.qualities {
+  align-items: center;
+  justify-content: center;
+  padding: 0 auto;
+
+}
+.svgs {
+  width: 3rem;
+  height: 3rem;
+}
+
+.titles {
+text-align: center;
+display: flex;
+justify-content: center;
+color: var(--itemBlue-);
+font-size: clamp(1.8rem, 2.0rem, 3rem);
+font-family: Dancing Script,cursive;
+border-top-style: solid;
+}
+
+.informations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--itemBlue-);
+  font-size: clamp(0.7rem, 1.3rem, 1.7rem);
+  margin: 2rem;
+}
+
+
+.descriptions {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: clamp(1.0rem, 1.5rem, 1.5rem);
+  text-align: justify;
+  justify-content: center;
+  color: var(--descriptionGray);
+  list-style-type: disclosure-closed;
+  
+}
+
+.descriptions2 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: clamp(1.0rem, 1.5rem, 1.5rem);
+  text-align: justify;
+  color: var(--descriptionGray);
+  list-style-type: disclosure-closed;
+}
+
+.fotoFlavia {
+  width: clamp(10rem, 20rem, 20rem);
+  height: 25rem;
+ 
+}
+
+.curriculum {
+  display: flex;
+  align-items: center;
+  justify-content: justify;
+}
+
+
+@media (max-width: 320px) {
+
+  .allBody {
+    justify-content: center;
+    padding: 0 1.8rem;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+  .curriculum {
+    display:block;
+    align-items: center;
+    
+  }
+ 
+}
+
+@media (max-width: 800px) {
+  .menu {
+    width: 100%;
+
+    /* flex-direction: column; */
+    
+  }
+
+  .menuitem {
+    font-size: 0.7rem;
+    padding: 1rem;
+    border-bottom-style:solid;
+    
+    
+   }
+}
+
+@media (min-width: 1024px) {
+
+  .allBody {
+    justify-content: center;
+    padding: 0 10rem;
+  }
+
+}

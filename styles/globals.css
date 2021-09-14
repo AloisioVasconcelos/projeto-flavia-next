@@ -1,9 +1,26 @@
+:root {
+  --lightblue-: rgb(107, 134, 156);
+  --iceWhite-: rgb(247, 247, 247);
+  --bubbleBlue-: rgb(84, 142, 197);
+  --itemWhite-: rgb(235, 240, 240);
+  --itemBlue-: rgb(107, 134, 156);
+  --descriptionGray: rgb(128, 122, 122);
+  --menuitem-: rgb(239, 243, 245);
+  --descritpion: rgb(20, 139, 149);
+  --backgroundDescription: rgb(95, 102, 100);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; 
+    background-color: var(--iceWhite-);
+    font-size: 93.75%;
+  scroll-behavior: smooth;
+  background-color:var(--iceWhite-);
+  
 }
 
 a {
@@ -14,3 +31,4 @@ a {
 * {
   box-sizing: border-box;
 }
+
