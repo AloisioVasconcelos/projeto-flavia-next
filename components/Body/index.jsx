@@ -27,7 +27,7 @@ function Body() {
 
             <div className={Styles.informations}>
               <img className={Styles.svgs} src="./assets/relogio.svg" alt="Imagem de tempo" />
-              Tempo
+              <strong>Tempo </strong>
             </div>
             <div className={Styles.descriptions}>
               <p >Escuta e análise qualificada com duração de <strong>50 minutos</strong>, abrangendo:
@@ -42,7 +42,8 @@ function Body() {
 
             <div className={Styles.informations}>
               <img className={Styles.svgs} src="./assets/esteto.svg" alt="Image de integração" />
-              Integração
+              <strong> Integração </strong>
+
             </div>
 
             <div className={Styles.descriptions}>
@@ -57,7 +58,7 @@ function Body() {
 
             <div className={Styles.informations}>
               <img className={Styles.svgs} src="./assets/calendario.svg" alt="Image de pontualidade" />
-              Pontualidade
+              <strong>Pontualidade</strong>
             </div>
             <div className={Styles.descriptions}>
               <p>Atendimento no horário agendado.</p>
@@ -91,14 +92,14 @@ function Body() {
 
 
             <div className={Styles.qualities}>
-              <h3>Formação</h3>
+              <h3 className={Styles.informations}>Formação</h3>
               <ul className={Styles.descriptions2}>
                 <li><p>Graduada em Medicina pela Universidade Católica de Brasília</p></li>
                 <li><p>Especializada em Psiquiatria (Residência realizada no Hospital de Base de Brasília) </p></li>
               </ul>
 
 
-              <h3>Experiência</h3>
+              <h3 className={Styles.informations}>Experiência</h3>
               <ul className={Styles.descriptions2}>
                 <li><p>Psiquiatria, pareceres e tratamento de insônia - atendimento particular.</p></li>
                 <li><p>Psiquiatria ambulatorial - Instituto Castro e Santos - ICS</p></li>
