@@ -41,7 +41,8 @@ function Header() {
         <div> <a onClick={closeMenu} className={menuitem ? Styles.active : Styles.menuitem} href="#Local">Endereço</a>
         </div>
         <div className={Styles.allMenu}>
-          <div  > <button onClick={ToggleMenu} className={Styles.imageMenu}> Menu  <Image className={Styles.menuMenu} src={ImageMenu} width="0.9rem" height="2.6rem" layout="responsive" /></button>
+          <div  > <button onClick={ToggleMenu} className={Styles.imageMenu}> Menu
+            <Image className={Styles.menuMenu} src={ImageMenu} width="2.0rem" height="2.6rem" layout="responsive" /></button>
           </div>
         </div>
 

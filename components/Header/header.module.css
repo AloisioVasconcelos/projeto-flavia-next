@@ -10,19 +10,20 @@
 }
 
 .imageMenu{
- 
+  
   align-items:center;
   justify-content: center;
   background-color: var(--iceWhite-);
   border-style:hidden;
   font-family: Dancing, cursive;
   margin: 1.8rem auto 0 auto;
-  font-size: 0.85rem;
+  font-size: 1.4rem;
   font-weight:bold;
   color: var(--itemBlue-);
   border-style:solid;
-  border-width: 0.3px;
+  border-width: 1.8px;
   border-radius: 0.4rem;
+ 
 
 
   
@@ -30,6 +31,7 @@
 
 .imageMenu:hover {
   background-color: rgb(235, 235, 245);
+  cursor: pointer;
 }
 
 
@@ -42,14 +44,16 @@
   padding: 2rem;
   border-radius: 0.8rem;
   font-weight: bold;
-  font-family:sans-serif;
+  font-family:Dancing, cursive;
   text-decoration: none;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--itemBlue-);
-  text-transform: uppercase;
   display: block;
   justify-content: center;
   border-bottom-style:solid;
+  height: 1vh;
+  transition: .15s;
+  visibility: visible;
 }
 
 .logo {
@@ -83,7 +87,7 @@
   padding: 2rem;
   border-radius: 0.8rem;
   font-weight: bold;
-  font-family:sans-serif;
+  font-family:Dancing, cursive;
   text-decoration: none;
   font-size: 0.9rem;
   color: var(--itemBlue-);
@@ -125,16 +129,23 @@
   
 
   .logo {
-    width: 7rem;
-    height: 8rem;
+    width: 9rem;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
     
   }
 
   .menuitem {
     padding: 0rem;
     border-bottom-style:solid;
-    display: none;
+    display: block;
     font-size: 0.5rem; 
+    height: 0;
+    visibility:hidden;
+    margin: 0 0 -400px 0;
+    
+    
   
   }
 }

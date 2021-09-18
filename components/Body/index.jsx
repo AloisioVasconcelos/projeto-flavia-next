@@ -1,4 +1,6 @@
 import Styles from '../Body/body.module.css'
+import { GoogleApiWrapper } from 'google-maps-react'
+
 <Body />
 
 function Body() {
@@ -115,7 +117,34 @@ function Body() {
           </div>
         </div>
       </div>
-    </div>
+
+      <div>
+        <div>
+          {/* <a id="wapp" class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5561999547668" target="_blank">
+            <img src="" alt="" />
+            <i class="fa fa-whatsapp"></i>
+        </a> */}
+        </div>
+        <div className={Styles.allBody}>
+
+          <h2 className={Styles.titles} id='Local'>Endereço</h2>
+
+          <div className={Styles.descriptions}>
+            <p align="center"><strong> Shln - Brasília, DF, 70710-100
+              Ed. Biosphere Bloco A Sala: 311 </strong> </p>
+          </div>
+
+          <div >
+            <p className={Styles.centralMap}>
+              <iframe className={Styles.map} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3840.2827373838554!2d-47.89640288572318!3d-15.736175225716552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a398fcc35baab%3A0x63994bb0af3e39df!2sBiosphere!5e0!3m2!1spt-BR!2sbr!4v1631923773925!5m2!1spt-BR!2sbr" width="600" height="600" style={{ border: 0 }} allowfullscreen="" loading="lazy" />
+            </p>
+          </div>
+        </div>
+      </div>
+    </div >
+
+
+
 
 
 
@@ -125,3 +154,6 @@ function Body() {
 }
 
 export default Body
+// export class MapContainer extends React.Component { }
+// export default GoogleApiWrapper({})(MapContainer)
+
