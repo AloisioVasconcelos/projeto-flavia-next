@@ -52,7 +52,6 @@
   justify-content: center;
   border-bottom-style:solid;
   height: 1vh;
-  transition: .15s;
   visibility: visible;
 }
 
@@ -148,6 +147,8 @@
     
   
   }
+
+
 }
 
 

@@ -1,5 +1,11 @@
 import Styles from '../Body/body.module.css'
 import { GoogleApiWrapper } from 'google-maps-react'
+import Image from 'next/image'
+import Teenagers from '/home/aavubuntu/projeto-flavia-next/public/assets/teenagers.jpg'
+import Adultos from '/home/aavubuntu/projeto-flavia-next/public/assets/adultos2.jpg'
+import Idosos from '/home/aavubuntu/projeto-flavia-next/public/assets/idosos2.jpg'
+import Ansiedade from '/home/aavubuntu/projeto-flavia-next/public/assets/ansiedade.jpg'
+import Hospital from '/home/aavubuntu/projeto-flavia-next/public/assets/hospital2.jpg'
 
 <Body />
 
@@ -72,17 +78,52 @@ function Body() {
         <div>
 
           <div className={Styles.qualities}>
-            <ul className={Styles.descriptions}>
-              <li><p>Crianças acima de 12 anos</p></li>
-              <li><p>Adultos</p></li>
-              <li><p>Idosos</p></li>
-              <li><p>Psiquiatria geral ambulatorial (transtornos de ansiedade, depressão, bipolar, esquizofrenia
-                adicção, compulsão, insônia, etc).</p></li>
-              <li><p>Parecer intra-hospitalar em hospital geral</p></li>
-            </ul>
+
+
+
+            <div className={Styles.descriptions0}>
+
+
+              <p>Adolescentes </p>
+
+              <p> Adultos </p>
+
+              <p> Idosos </p>
+              <p> Psiquiatria geral ambulatorial (transtornos de ansiedade, depressão, bipolar, esquizofrenia
+                adicção, compulsão, insônia, etc).</p>
+              <p>  Parecer intra-hospitalar em hospital geral</p>
+
+
+
+
+            </div>
+
+            <div className={Styles.areas}>
+
+              <div >
+                <Image className={Styles.images} src={Teenagers} width="140" height="140" layout="intrinsic" />
+              </div>
+              <div >
+                <Image className={Styles.images} src={Adultos} width="140" height="140" layout="intrinsic" />
+              </div>
+              <div >
+
+                <Image className={Styles.images} src={Idosos} width="140" height="140" layout="intrinsic" />
+              </div>
+              <div>
+                <Image className={Styles.images} src={Ansiedade} width="140" height="140" layout="intrinsic" />
+              </div>
+              <div>
+                <Image className={Styles.images} src={Hospital} width="140" height="140" layout="intrinsic" />
+              </div>
+
+            </div>
           </div>
-          <div>
-          </div>
+
+
+
+
+
 
 
           <h2 className={Styles.titles} id="about">Sobre a médica</h2>
@@ -96,27 +137,27 @@ function Body() {
             <div className={Styles.qualities}>
               <h3 className={Styles.informations}>Formação</h3>
               <ul className={Styles.descriptions2}>
-                <li><p>Graduada em Medicina pela Universidade Católica de Brasília</p></li>
-                <li><p>Especializada em Psiquiatria (Residência realizada no Hospital de Base de Brasília) </p></li>
+                <p>Graduada em Medicina pela Universidade Católica de Brasília</p>
+                <p>Especializada em Psiquiatria (Residência realizada no Hospital de Base de Brasília) </p>
               </ul>
 
 
               <h3 className={Styles.informations}>Experiência</h3>
               <ul className={Styles.descriptions2}>
-                <li><p>Psiquiatria, pareceres e tratamento de insônia - atendimento particular.</p></li>
-                <li><p>Psiquiatria ambulatorial - Instituto Castro e Santos - ICS</p></li>
-                <li><p>Medicina do trabalho: atendimento de urgências e perícia em junta médica - Justiça Federal do Distrito Federal</p></li>
-                <li><p>Clínica médica no Pronto Socorro - Hospital Santa Luzia</p></li>
-                <li><p>Concursada da Secretaria de Estado de Saúde do
+                <p>Psiquiatria, pareceres e tratamento de insônia - atendimento particular.</p>
+                <p>Psiquiatria ambulatorial - Instituto Castro e Santos - ICS</p>
+                <p>Medicina do trabalho: atendimento de urgências e perícia em junta médica - Justiça Federal do Distrito Federal</p>
+                <p>Clínica médica no Pronto Socorro - Hospital Santa Luzia</p>
+                <p>Concursada da Secretaria de Estado de Saúde do
                   Distrito Federal - clínica médica -Hospital Regional da Asa Norte (HRAN)
-                </p></li>
-                <li><p>Médica voluntária no Exército Brasileiro - Brasília/DF.</p></li>
+                </p>
+                <p>Médica voluntária no Exército Brasileiro - Brasília/DF.</p>
               </ul>
 
             </div>
           </div>
         </div>
-      </div>
+      </div >
 
       <div>
         <div>
