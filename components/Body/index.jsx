@@ -102,20 +102,20 @@ function Body() {
             <div className={Styles.areas}>
 
               <span>
-                <Image className={Styles.images} src={Teenagers} width="140" height="140" layout="intrinsic" />
+                <Image className={Styles.images} src={Teenagers} width="140" height="140" layout="intrinsic" alt="teenagers" />
               </span>
               <span>
-                <Image className={Styles.images} src={Adultos} width="140" height="140" layout="intrinsic" />
+                <Image className={Styles.images} src={Adultos} width="140" height="140" layout="intrinsic" alt="adults" />
               </span>
               <div >
 
-                <Image className={Styles.images} src={Idosos} width="140" height="140" layout="intrinsic" />
+                <Image className={Styles.images} src={Idosos} width="140" height="140" layout="intrinsic" alt="eldery" />
               </div>
               <div>
-                <Image className={Styles.images} src={Ansiedade} width="140" height="140" layout="intrinsic" />
+                <Image className={Styles.images} src={Ansiedade} width="140" height="140" layout="intrinsic" alt="Anxiety" />
               </div>
               <div>
-                <Image className={Styles.images} src={Hospital} width="140" height="140" layout="intrinsic" />
+                <Image className={Styles.images} src={Hospital} width="140" height="140" layout="intrinsic" alt="hospital" />
               </div>
 
             </div>
