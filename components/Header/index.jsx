@@ -37,7 +37,7 @@ function Header() {
           <img className={Styles.logo} src="/assets/logoFlaviaFaggianicortado.png " alt="Logo Dra. Flávia Faggiani" />
         </div>
         <div><a onClick={closeMenu} className={menuitem ? Styles.active : Styles.menuitem} href="#about">Sobre a médica</a> </div>
-        <div> <a onClick={closeMenu} className={menuitem ? Styles.active : Styles.menuitem} href="https://api.whatsapp.com/send?phone=5561999547668" target="_blank">Agende sua Consulta</a> </div>
+        <div> <a onClick={closeMenu} className={menuitem ? Styles.active : Styles.menuitem} href="https://api.whatsapp.com/send?phone=5561999547668" rel="noreferrer" target="_blank">Agende sua Consulta</a> </div>
         <div> <a onClick={closeMenu} className={menuitem ? Styles.active : Styles.menuitem} href="#Local">Endereço</a>
         </div>
         <div className={Styles.allMenu}>

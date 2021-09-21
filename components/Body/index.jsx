@@ -162,10 +162,7 @@ function Body() {
 
       <div>
         <div>
-          {/* <a id="wapp" class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5561999547668" target="_blank">
-            <img src="" alt="" />
-            <i class="fa fa-whatsapp"></i>
-        </a> */}
+
         </div>
         <div className={Styles.allBody}>
 
