@@ -83,29 +83,30 @@ function Body() {
 
             <div className={Styles.descriptions0}>
 
+              <p className={Styles.descriptionAreas}>Adolescentes </p>
 
-              <p>Adolescentes </p>
 
-              <p> Adultos </p>
+              <p className={Styles.descriptionAreas}> Adultos </p>
 
-              <p> Idosos </p>
-              <p> Psiquiatria geral ambulatorial (transtornos de ansiedade, depressão, bipolar, esquizofrenia
+              <p className={Styles.descriptionAreas}> Idosos </p>
+
+
+              <p className={Styles.descriptionAreas}> Psiquiatria geral ambulatorial (transtornos de ansiedade, depressão, bipolar, esquizofrenia
                 adicção, compulsão, insônia, etc).</p>
-              <p>  Parecer intra-hospitalar em hospital geral</p>
 
 
-
+              <p className={Styles.descriptionAreas}>  Parecer intra-hospitalar em hospital geral</p>
 
             </div>
 
             <div className={Styles.areas}>
 
-              <div >
+              <span>
                 <Image className={Styles.images} src={Teenagers} width="140" height="140" layout="intrinsic" />
-              </div>
-              <div >
+              </span>
+              <span>
                 <Image className={Styles.images} src={Adultos} width="140" height="140" layout="intrinsic" />
-              </div>
+              </span>
               <div >
 
                 <Image className={Styles.images} src={Idosos} width="140" height="140" layout="intrinsic" />

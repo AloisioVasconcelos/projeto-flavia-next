@@ -13,7 +13,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Flávia Faggiani - Médica Psiquiatra</title>
-        <meta name="description" content="Médica Psiquiátrica - Flávia Faggiani" />
+        <meta name="author" content="Aloísio Vasconcelos" />
+        <meta name="description" content="Médica Psiquiátrica em Brasília-DF - Dra. Flávia Faggiani" />
+        <meta name="keywords" content="psiquiatria, medico psiquiatra, medica psiquiatra, brasilia, DF" />
+        <meta name="robots" content="index,follow" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"></link>
 
@@ -25,16 +28,15 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+
+        <p align="center">
+          Powered by{' @@V'}
+        </p>
+        <p align="center">
+          Dra. Flávia Coelho Faggiani. Todos os direitos reservados.
+        </p>
+
+
       </footer>
     </div>
   )

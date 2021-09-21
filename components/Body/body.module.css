@@ -34,6 +34,10 @@
   justify-content: center;
 }
 
+.diferencial:hover{
+  color: var(--bubbleBlue-);
+}
+
 
 .qualities {
   align-items: center;
@@ -85,6 +89,10 @@ border-top-style: solid;
   
 }
 
+.descriptions:hover{
+  color: var(--bubbleBlue-);
+}
+
 .images {
   width: 10rem;
   height: 10rem;
@@ -93,6 +101,7 @@ border-top-style: solid;
   margin: 0 0.5rem;
   justify-content: space-around;
   position: relative;
+  
   
 }
 
@@ -120,14 +129,24 @@ border-top-style: solid;
 .descriptions0{
   
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: clamp(1.0rem, 1.5rem, 1.5rem);
+  font-size: clamp(0.5rem, 1.5rem, 1.5rem);
   text-align: center;
   color: var(--descriptionGray);
   list-style-type: disclosure-closed;
   justify-content: space-around;
   align-items: center;
-  padding: 2rem 10rem;
-  
+  padding: 8rem auto;
+  display: flex;
+}
+
+
+
+.descriptions0:hover{
+  color: var(--bubbleBlue-);
+}
+
+.descriptionAreas {
+ padding: 1rem 4rem;
 }
 
 .areas {
@@ -135,6 +154,7 @@ border-top-style: solid;
  display: flex;
  justify-content: space-around;
   padding: 1rem 0;
+  align-items: center;
   
 }
 
@@ -145,6 +165,10 @@ border-top-style: solid;
   color: var(--descriptionGray);
   list-style-type: disclosure-closed;
   
+}
+
+.descriptions2:hover{
+  color: var(--bubbleBlue-);
 }
 
 .fotoFlavia {
@@ -226,8 +250,11 @@ border-top-style: solid;
   }
 
   .descriptions0 {
-    padding: 0 0;
+    display: block;
+   
   }
+
+
 
  .descriptions2{
    padding: 0.5rem 0.5rem;
@@ -252,6 +279,10 @@ border-top-style: solid;
     
    }
 
+   .descriptionAreas {
+    padding: 1rem 1rem;
+   }
+
    /* .container {
    display: flex;
     
@@ -266,6 +297,61 @@ border-top-style: solid;
     padding: 0 10rem;
   }
 
+
+  .descriptionAreas {
+    padding: 1rem 3.75rem;
+   }
+  /* .container {
+    display: flex;
+     
+     
+    } */
+}
+
+@media (max-width: 1024px) {
+
+
+
+  .descriptionAreas {
+    padding: 1rem 1rem;
+   }
+  /* .container {
+    display: flex;
+     
+     
+    } */
+}
+
+@media (min-width: 1440px) {
+
+  .allBody {
+    justify-content: center;
+    padding: 0 10rem;
+  }
+
+
+  .descriptionAreas {
+    padding: 1rem 4.25rem;
+   }
+  /* .container {
+    display: flex;
+     
+     
+    } */
+}
+
+
+@media (min-width: 2560px) {
+
+  .allBody {
+    justify-content: center;
+    padding: 0 10rem;
+  }
+
+
+  .descriptionAreas {
+    padding: 1rem 12.25rem;
+   }
   /* .container {
     display: flex;
      
