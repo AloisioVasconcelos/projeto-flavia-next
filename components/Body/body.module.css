@@ -260,7 +260,12 @@ border-top-style: solid;
    
   }
 
-
+.fotoFlavia {
+  width: clamp(10rem, 20rem, 20rem);
+  height: 25rem;
+  border-radius: 0.7rem;
+ 
+}
 
  .descriptions2{
    padding: 0.5rem 0.5rem;
