@@ -214,6 +214,12 @@ border-top-style: solid;
 
 
 @media (max-width: 600px) {
+  
+   .allBody {
+    justify-content: center;
+    padding: 0 1.8rem;
+  }
+  
   .curriculum {
     display:block;
     align-items: center;
@@ -350,7 +356,7 @@ border-top-style: solid;
 
 
   .descriptionAreas {
-    padding: 1rem 8.25rem;
+    padding: 1rem 7.25rem;
    }
   /* .container {
     display: flex;
