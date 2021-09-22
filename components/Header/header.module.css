@@ -139,7 +139,7 @@
     padding: 0rem;
     border-bottom-style:solid;
     display: block;
-    font-size: 0.7rem; 
+    font-size: 0.9rem; 
     height: 0;
     visibility:hidden;
     margin: 0 0 -400px 0;
@@ -159,7 +159,7 @@
  }  */
 
  .menuitem {
-  font-size: 0.6rem;
+  font-size: 0.2rem;
   padding: 0.5rem;
   border-bottom-style:solid;
 
