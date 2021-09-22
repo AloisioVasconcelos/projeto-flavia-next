@@ -1,6 +1,6 @@
 import Styles from './header.module.css'
 import Image from 'next/image'
-import ImageMenu from '/home/aavubuntu/projeto-flavia-next/public/assets/menu.svg'
+import ImageMenu from '/assets/menu.svg'
 import { useState } from 'react'
 // import ToggleMenu from '../Functions/handlers'
 
