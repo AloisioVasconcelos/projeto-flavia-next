@@ -1,11 +1,11 @@
 import Styles from '../Body/body.module.css'
 import { GoogleApiWrapper } from 'google-maps-react'
 import Image from 'next/image'
-import Teenagers from '/home/aavubuntu/projeto-flavia-next/public/assets/teenagers.jpg'
-import Adultos from '/home/aavubuntu/projeto-flavia-next/public/assets/adultos2.jpg'
-import Idosos from '/home/aavubuntu/projeto-flavia-next/public/assets/idosos2.jpg'
-import Ansiedade from '/home/aavubuntu/projeto-flavia-next/public/assets/ansiedade.jpg'
-import Hospital from '/home/aavubuntu/projeto-flavia-next/public/assets/hospital2.jpg'
+import Teenagers from '/public/assets/teenagers.jpg'
+import Adultos from '/public/assets/adultos2.jpg'
+import Idosos from '/public/assets/idosos2.jpg'
+import Ansiedade from '/public/assets/ansiedade.jpg'
+import Hospital from '/public/assets/hospital2.jpg'
 
 <Body />
 
