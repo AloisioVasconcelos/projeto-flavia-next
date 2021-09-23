@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Allison&family=Dancing+Script&display=swap');
 
+.divwapp{
+  position: fixed;
+  right: 45px;
+  bottom: 60px;
+  align-items: center;
+  display: flex;
+  z-index: 1000;
+}
+
+.agendamento{
+  background-color: var(--iceWhite-);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: var(--itemBlue-);
+  padding: 0.5rem;
+  border-radius: 10%;
+  font-size: clamp(0.4rem, 1.2rem, 1.3rem);
+}
+
+.agendamento:hover{
+ background-color: var(--menuitem2-);
+}
+
+.whatsapp {
+  border-radius: 50%;
+  
+}
+
 .allBody {
   justify-content: center;
   padding: 0 4.2rem;
@@ -215,6 +242,19 @@ border-top-style: solid;
 
 @media (max-width: 600px) {
   
+  .divwapp{
+    position: fixed;
+    right: 15px;
+    bottom: 40px;
+    align-items: center;
+    display: flex;
+    z-index: 1000;
+  }
+
+  .agendamento{
+    display: none;
+  }
+
    .allBody {
     justify-content: center;
     padding: 0 1.8rem;
@@ -275,6 +315,11 @@ border-top-style: solid;
 
 
 @media (max-width: 800px) {
+
+  .agendamento{
+    display: none;
+  }
+
   .menu {
     width: 100%;
 

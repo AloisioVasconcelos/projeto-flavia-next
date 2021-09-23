@@ -6,14 +6,22 @@ import Adultos from '/public/assets/adultos2.jpg'
 import Idosos from '/public/assets/idosos2.jpg'
 import Ansiedade from '/public/assets/ansiedade.jpg'
 import Hospital from '/public/assets/hospital2.jpg'
+import Whatsapp from '/public/assets/whatsapp.png'
 
-<Body />
+< Body />
 
 function Body() {
   return (
 
 
+
     <div>
+
+      <div className={Styles.divwapp}>
+        <a href="https://api.whatsapp.com/send?phone=5561999547668">
+          <div className={Styles.agendamento}> Agende aqui sua consulta </div> </a> <a href="https://api.whatsapp.com/send?phone=5561999547668"><Image className={Styles.whatsapp} src={Whatsapp} width="50" height="50" layout="intrinsic" alt="whatsapp" />
+        </a>
+      </div>
 
       <div className={Styles.banner}>
         <img className=
