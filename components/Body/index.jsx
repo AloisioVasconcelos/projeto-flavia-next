@@ -26,7 +26,7 @@ function Body() {
       <div className={Styles.banner}>
         <img className=
           {Styles.bannerPage}
-          src="/assets/bannerwide.jpg" alt="Banner" />
+          src="/assets/consultorio" alt="Banner" />
       </div>
 
       <div className={Styles.allBody}>
