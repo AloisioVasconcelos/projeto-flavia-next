@@ -17,6 +17,7 @@ export default function Home() {
         <meta name="description" content="Médica Psiquiátrica em Brasília-DF - Dra. Flávia Faggiani" />
         <meta name="keywords" content="psiquiatria, medico psiquiatra, medica psiquiatra, brasilia, DF" />
         <meta name="robots" content="index,follow" />
+        <meta property="og: image" content="/logoFlaviaFaggianicortado.png">
         <link rel="icon" href="/logoFlaviaFaggianicortado.png"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"></link>
 
