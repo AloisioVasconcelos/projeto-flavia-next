@@ -13,6 +13,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Flávia Faggiani - Médica Psiquiatra</title>
+        <meta name="google-site-verification" content="xGicAdxGaPjFX4Cxram03xC1hI5bk_2eA6mmVDXLZZw" />
         <meta name="author" content="Aloísio Vasconcelos" />
         <meta name="description" content="Médica Psiquiatra em Brasília-DF - Dra. Flávia Faggiani" />
         <meta name="keywords" content="psiquiatria, medico psiquiatra, medica psiquiatra, brasilia, DF" />
