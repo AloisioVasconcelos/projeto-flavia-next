@@ -30,7 +30,7 @@ function Header() {
     <div className={Styles.all}>
       <nav className={Styles.menu}>
 
-        <div><a onClick={closeMenu} className={menuitem ? Styles.active : Styles.menuitem} href="#">Home</a> </div>
+        <div><a onClick={closeMenu} className={menuitem ? Styles.active : Styles.menuitem} href="http://www.draflaviafaggiani.com.br">Home</a> </div>
         <div> <a onClick={closeMenu} className={menuitem ? Styles.active : Styles.menuitem} href="#consultInfo">Atendimento Humanizado</a> </div>
         <div> <a onClick={closeMenu} className={menuitem ? Styles.active : Styles.menuitem} href="#consultAreas">Atuação</a> </div>
         <div className="logo">
